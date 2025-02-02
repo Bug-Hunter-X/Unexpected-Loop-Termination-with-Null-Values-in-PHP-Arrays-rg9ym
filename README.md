@@ -1,0 +1,3 @@
+# PHP Null Value Loop Termination Bug
+
+This repository demonstrates a common but subtle bug in PHP related to handling null values within arrays during `foreach` loops.  The issue arises from PHP's loose typing and how null values can lead to unexpected behavior. The `bug.php` file shows the problematic code.  The solution is provided in `bugSolution.php`, which addresses the problem by explicitly checking for null values before processing them.
